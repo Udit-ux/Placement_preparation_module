@@ -18,7 +18,6 @@ public:
                         (ch == '}' && top == '{') ||
                         (ch == ']' && top == '[')) 
                         {
-                            // if matches then pop 
                             st.pop() ;
                         }
                         else 
