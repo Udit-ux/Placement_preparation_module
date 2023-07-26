@@ -7,7 +7,6 @@ public:
 
     for(int i=0;i<s.size();i++){
         if(mp[s[i]]<mp[s[i+1]]){
-            //for cases such as IV,CM, XL, etc...
             ans=ans-mp[s[i]];
         }
         else{
